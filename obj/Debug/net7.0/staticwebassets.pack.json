@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.JetstreamBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.JetstreamBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.JetstreamBackend.props",
+      "PackagePath": "build\\JetstreamBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.JetstreamBackend.props",
+      "PackagePath": "buildMultiTargeting\\JetstreamBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.JetstreamBackend.props",
+      "PackagePath": "buildTransitive\\JetstreamBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

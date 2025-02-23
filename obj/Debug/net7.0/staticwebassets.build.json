@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "1KfYJYsXX14g9ueIJxBGZWHt7zy9YJkXV1DHzhL5e0g=",
+  "Source": "JetstreamBackend",
+  "BasePath": "_content/JetstreamBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "JetstreamBackend\\wwwroot",
+      "Source": "JetstreamBackend",
+      "ContentRoot": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\",
+      "BasePath": "_content/JetstreamBackend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\css\\styles.css",
+      "SourceId": "JetstreamBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\",
+      "BasePath": "_content/JetstreamBackend",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j1jyr12wzx",
+      "Integrity": "GaxLj/9NBefcEpX8gU/k28qgyS/gwnaGS1Epk5DEAiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\index.html",
+      "SourceId": "JetstreamBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\",
+      "BasePath": "_content/JetstreamBackend",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9gszq5mgs7",
+      "Integrity": "yWjgNceWXSM5/t9/YGzj2dBV8+wcwXk0Ex4Fe+/CALc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\js\\script.js",
+      "SourceId": "JetstreamBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\",
+      "BasePath": "_content/JetstreamBackend",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uiko1inneq",
+      "Integrity": "5tbixao1CAUEOmiMpBXBPwiG5X+kn8Ohd7Q8YbbJ7HU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GaxLj/9NBefcEpX8gU/k28qgyS/gwnaGS1Epk5DEAiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 09:26:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GaxLj/9NBefcEpX8gU/k28qgyS/gwnaGS1Epk5DEAiY="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.j1jyr12wzx.css",
+      "AssetFile": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GaxLj/9NBefcEpX8gU/k28qgyS/gwnaGS1Epk5DEAiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 09:26:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1jyr12wzx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GaxLj/9NBefcEpX8gU/k28qgyS/gwnaGS1Epk5DEAiY="
+        }
+      ]
+    },
+    {
+      "Route": "index.9gszq5mgs7.html",
+      "AssetFile": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWjgNceWXSM5/t9/YGzj2dBV8+wcwXk0Ex4Fe+/CALc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 09:26:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9gszq5mgs7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWjgNceWXSM5/t9/YGzj2dBV8+wcwXk0Ex4Fe+/CALc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWjgNceWXSM5/t9/YGzj2dBV8+wcwXk0Ex4Fe+/CALc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 09:26:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWjgNceWXSM5/t9/YGzj2dBV8+wcwXk0Ex4Fe+/CALc="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tbixao1CAUEOmiMpBXBPwiG5X+kn8Ohd7Q8YbbJ7HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 09:26:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tbixao1CAUEOmiMpBXBPwiG5X+kn8Ohd7Q8YbbJ7HU="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.uiko1inneq.js",
+      "AssetFile": "C:\\Users\\erzincansivas\\Documents\\Modul165Projekt\\Modul294-SkiService-Server-main3\\JetstreamBackend\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tbixao1CAUEOmiMpBXBPwiG5X+kn8Ohd7Q8YbbJ7HU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 09:26:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uiko1inneq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5tbixao1CAUEOmiMpBXBPwiG5X+kn8Ohd7Q8YbbJ7HU="
+        }
+      ]
+    }
+  ]
+}

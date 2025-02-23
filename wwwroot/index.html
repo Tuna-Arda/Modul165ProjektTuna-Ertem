@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jetstream Ski-Service – Ihr Experte für Skiwartung und Pflege.">
+  <title>Jetstream Ski-Service</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Jetstream Ski-Service</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#landing">Start</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#anmeldung">Anmeldung</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- Landing-/Startbereich -->
+  <header id="landing" class="text-white py-5" style="background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://th.bing.com/th/id/OIP.ZcmG3aNiQ_O6Xm64mfKMLwHaE8?w=920&h=614&rs=1&pid=ImgDetMain') no-repeat center center/cover;">
+    <div class="container animate__animated animate__fadeIn">
+      <h1 class="display-3 fw-bold">Willkommen beim Jetstream Ski-Service</h1>
+      <p class="lead mb-4">Ihr Experte für Skiwartung und Pflege</p>
+      <a href="#anmeldung" class="btn btn-success animate__animated animate__bounceIn">Jetzt anmelden</a>
+    </div>
+  </header>
+ 
+  <!-- Kontaktbereich -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-primary fw-bold mb-5 animate__animated animate__fadeInDown">Kontakt</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Unsere Adresse</h5>
+              <p class="card-text">
+                <strong>Musterstrasse 1</strong><br>
+                4057 Basel
+              </p>
+              <p class="card-text"><strong>Telefon:</strong> +41 61 123 45 67</p>
+              <p class="card-text">
+                <strong>E-Mail:</strong>
+                <a href="mailto:info@jetstream-service.ch">info@jetstream-service.ch</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="ratio ratio-16x9 shadow-sm" style="border-radius: 15px;">
+            <iframe src="https://maps.google.com/maps?q=Basel&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" style="border:0;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Serviceanmeldung -->
+  <section id="anmeldung" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-success fw-bold mb-5 animate__animated animate__fadeInDown">Serviceanmeldung</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form id="serviceForm" class="needs-validation animate__animated animate__fadeInUp" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Kundenname</label>
+                <input type="text" id="name" class="form-control" placeholder="Max Mustermann" required>
+                <div class="invalid-feedback">Bitte geben Sie Ihren Namen ein.</div>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">E-Mail</label>
+                <input type="email" id="email" class="form-control" placeholder="max@example.com" required>
+                <div class="invalid-feedback">Bitte geben Sie eine gültige E-Mail-Adresse ein.</div>
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Telefon</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+41 61 123 45 67" pattern="^\+?[0-9 ]{7,15}$" required>
+                <div class="invalid-feedback">Bitte geben Sie eine gültige Telefonnummer ein.</div>
+              </div>
+              <div class="col-md-6">
+                <label for="priority" class="form-label">Priorität</label>
+                <select id="priority" class="form-select" required>
+                  <option value="" disabled selected>Bitte wählen</option>
+                  <option value="Standard">Standard (7 Tage)</option>
+                  <option value="Express">Express (5 Tage)</option>
+                  <option value="Tief">Tief (12 Tage)</option>
+                </select>
+                <div class="invalid-feedback">Bitte wählen Sie eine Priorität.</div>
+              </div>
+              <div class="col-12">
+                <label for="service" class="form-label">Dienstleistung</label>
+                <select id="service" class="form-select" required>
+                  <option value="" disabled selected>Bitte wählen</option>
+                  <option value="Kleiner Service">Kleiner Service</option>
+                  <option value="Grosser Service">Grosser Service</option>
+                  <option value="Rennski-Service">Rennski-Service</option>
+                  <option value="Bindung montieren und einstellen">Bindung montieren und einstellen</option>
+                  <option value="Fell zuschneiden">Fell zuschneiden</option>
+                  <option value="Heisswachsen">Heisswachsen</option>
+                </select>
+                <div class="invalid-feedback">Bitte wählen Sie eine Dienstleistung.</div>
+              </div>
+              <div class="col-12">
+                <label for="pickupTime" class="form-label">Abholzeit</label>
+                <input type="time" id="pickupTime" class="form-control" required>
+                <div class="invalid-feedback">Bitte wählen Sie eine Abholzeit.</div>
+              </div>
+            </div>
+            <div class="mt-4 d-flex justify-content-center gap-3">
+              <button type="submit" class="btn btn-success">Anmeldung abschicken</button>
+              <button type="reset" class="btn btn-outline-secondary">Zurücksetzen</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Jetstream Ski-Service. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+ 
+  <!-- Bootstrap JS (inkl. Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Optional: Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
