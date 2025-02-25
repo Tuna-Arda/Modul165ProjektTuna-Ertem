@@ -68,3 +68,4 @@ C:\Users\erzincansivas\Documents\Modul165Projekt\Modul294-SkiService-Server-main
 C:\Users\erzincansivas\Documents\Modul165Projekt\Modul294-SkiService-Server-main3\JetstreamBackend\obj\Debug\net7.0\JetstreamBackend.pdb
 C:\Users\erzincansivas\Documents\Modul165Projekt\Modul294-SkiService-Server-main3\JetstreamBackend\obj\Debug\net7.0\JetstreamBackend.genruntimeconfig.cache
 C:\Users\erzincansivas\Documents\Modul165Projekt\Modul294-SkiService-Server-main3\JetstreamBackend\obj\Debug\net7.0\ref\JetstreamBackend.dll
+C:\Users\erzincansivas\Documents\Modul165Projekt\Modul294-SkiService-Server-main3\JetstreamBackend\obj\Debug\net7.0\JetstreamBackend.sourcelink.json

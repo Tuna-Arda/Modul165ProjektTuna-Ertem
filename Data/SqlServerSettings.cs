@@ -1,6 +1,6 @@
 namespace JetstreamBackend.Data
 {
-    public class MariaDbSettings
+    public class SqlServerSettings
     {
         public string ConnectionString { get; set; }
     }
